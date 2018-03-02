@@ -4,5 +4,11 @@
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "proxies": [
+    {
+      "path":"/getListPass",
+      "proxyUrl": "https://acess-node.herokuapp.com/getListPass"
+    }
+  ]
 }
